@@ -3,6 +3,7 @@
 1. Check that you have SQLite installed: `sqlite3 --version`. MacOS X 10.5 and greater already has SQLite preinstalled.
 2. Install ruby. There are many ways to do this. On MacOS you can run `brew install ruby`. Make sure that you use v3.1.3.
 3. Go to the application root and run `gem install bundler`
+4. From the application root install all the dependencies using `bundle install`
 4. From the application root build the database `rails db:drop db:setup`
 4. From the application root start the application: `rails s`
 ## Docker
