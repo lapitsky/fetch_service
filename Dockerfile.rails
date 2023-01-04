@@ -13,5 +13,5 @@ WORKDIR /opt/app
 COPY . .
 RUN gem install bundler
 RUN bundle install
-RUN rails db:drop db:setup db:seed
+CMD rails db:drop db:setup db:seed
 CMD bundle exec rails s -b 0.0.0.0
